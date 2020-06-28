@@ -2,12 +2,12 @@ import numpy as np
 
 
 def board():
-    x = np.array([1, 1, 1, 1, 1, 1, 1, 1, 1]).reshape(3, 3)
+    x = np.ones((3,3))
     return x
 
 
 # START THE GAME
-print(' WELCOME TO TC_TAC_TO')
+print(' WELCOME TO TC_TAC_TOE')
 pl1 = int(input('enter any number'))
 pl2 = int(input('enter any number other than pl1'))
 if pl1 == pl2:
